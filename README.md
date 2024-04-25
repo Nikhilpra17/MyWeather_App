@@ -1,7 +1,7 @@
 # Weather Application
 
 ## Overview
-![Weather Application Preview]()
+![Weather Application Preview](https://github.com/Nikhilpra17/MyWeather_App/blob/master/ezgif.com-animated-gif-maker.gif)
 
 
 ## Description
