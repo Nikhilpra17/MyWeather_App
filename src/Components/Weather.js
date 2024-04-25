@@ -1,17 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { WiHumidity } from "react-icons/wi";
 import { FaSearch, FaWind } from "react-icons/fa";
 import { MdLocationOn } from "react-icons/md";
 import "./Weather.css";
 
 const Weather = function () {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("New Delhi");
   const [weather, setWeather] = useState();
   const [error, setError] = useState();
 
   const API_Key = "25b1fabe4b5d0b464ab87715ac25539f";
 
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_Key}`;
+
+  //   useEffect(() => {
+  //     fetchData();
+  //   }, [city]);
 
   async function fetchData() {
     try {
@@ -32,7 +36,7 @@ const Weather = function () {
   }
 
   return (
-    <div className="container">
+    <div className="box">
       <div className="city">
         <input
           type="text"
@@ -73,7 +77,7 @@ const Weather = function () {
             </p>
           </div>
 
-          <div className="weather-stats">
+          <div className="weather-stat">
             <div className="wind">
               <div className="wind-icon">
                 <FaWind />
