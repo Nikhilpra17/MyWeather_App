@@ -3,6 +3,10 @@
 ## Description
 The Weather Application is a simple web application that allows users to check the current weather conditions of any location worldwide. Users can enter the name of a city in the input field, and the application will fetch and display the temperature, humidity, and wind speed of that location using data from the OpenWeatherMap API.
 
+
+## Description
+The Weather Application is a simple web application that allows users to check the current weather conditions of any location worldwide. Users can enter the name of a city in the input field, and the application will fetch and display the temperature, humidity, and wind speed of that location using data from the OpenWeatherMap API.
+
 ## Features
 - **User-friendly interface:** The application provides a clean and intuitive interface for users to enter the desired city.
 - **Real-time weather data:** The application fetches real-time weather data from the OpenWeatherMap API and displays it to the user.
